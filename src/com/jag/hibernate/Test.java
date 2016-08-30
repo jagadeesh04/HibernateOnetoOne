@@ -23,6 +23,8 @@ public class Test {
 		
 		session.beginTransaction();
 		
+		
+		//i'm not saving student object
 		//session.save(student);
 		session.save(studentDetail);
 		session.getTransaction().commit();
